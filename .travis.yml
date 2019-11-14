@@ -19,6 +19,4 @@ script: mvn clean apache-rat:check install -DskipTests spotbugs:check checkstyle
 
 branches:
   only:
-  - master
-  - branch-3.5
-  - branch-3.4
+  - s390x-travis
