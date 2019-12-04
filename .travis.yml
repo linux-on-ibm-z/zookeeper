@@ -5,10 +5,14 @@ matrix:
   include:
     - os: linux
       jdk: openjdk8
+    - os: linux
       jdk: openjdk11
     - os: linux
       arch: s390x
       jdk: openjdk8
+    - os: linux
+      arch: s390x
+      jdk: openjdk11
 
 cache:
   directories:
