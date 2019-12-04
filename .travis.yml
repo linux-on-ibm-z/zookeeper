@@ -1,14 +1,15 @@
 language: java
 sudo: false
-jdk:
-  - openjdk8
-  - openjdk11
 
 matrix:
   include:
-  - os: linux
-  - os: linux
-    arch: s390x
+    - os: linux
+    - os: linux
+      arch: s390x
+
+jdk:
+  - openjdk8
+  - openjdk11
 
 cache:
   directories:
