@@ -1,7 +1,4 @@
 language: java
-
-arch: s390x
-os: linux
 sudo: false
 jdk:
   - openjdk8
