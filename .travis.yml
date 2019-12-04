@@ -4,12 +4,14 @@ sudo: false
 matrix:
   include:
     - os: linux
+      jdk:
+      - openjdk8
+      - openjdk11      
     - os: linux
       arch: s390x
-
-jdk:
-  - openjdk8
-  - openjdk11
+      jdk:
+      - openjdk8
+      - openjdk11  
 
 cache:
   directories:
