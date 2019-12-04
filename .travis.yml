@@ -7,7 +7,8 @@ jdk:
 matrix:
   include:
   - os: linux
-  - arch: s390x
+  - os: linux
+    arch: s390x
 
 cache:
   directories:
